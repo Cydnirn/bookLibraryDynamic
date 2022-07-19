@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    cursor: default;
+}
+
+header{
+    background-color: rgb(0, 119, 255);
+    color: white;
+    text-align: center;
+    padding: 16px;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    margin-top: 10px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow:  0 5px 5px rgba(70, 72, 82, 0.158);
+}
+
+.form-title{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form, .search-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-title, .sub-form-title{
+    color: rgb(3, 176, 245);
+}
+
+.sub-form, .sub-search-form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sub-form label{
+    color: black;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+.sub-form input[type=text], input[type=number]{
+    border: 2px solid rgba(0, 0, 0, 0.205);
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+.submit{
+    align-items: center;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+}
+
+.checkbox input[type=checkbox]{
+    margin: auto;
+}
+
+.btn-submit{
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.btn-submit:hover{
+    background-color: rgb(3, 103, 218);
+}
+
+.btn-submit:active{
+    margin-top: 10px;
+    width: 95%;
+}
+
+.search-form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-form .sub-form{
+    flex-direction: row;
+    width: 90%;
+}
+
+.search-form .sub-form label{
+    margin: auto 0px;
+}
+
+.search-form .sub-form input[type=text]{
+    margin: 0px 10px;
+    width: 80%;
+    padding: 2px 5px;
+}
+
+.search-form .sub-form input[type=submit]{
+    width: 20%;
+}
+
+.container-header{
+    color: rgb(3, 176, 245);
+    text-align: left;
+    margin: 10px;
+}
+
+.buku{
+    box-shadow:  0 5px 5px rgba(8, 25, 112, 0.623);
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.buku-isi{
+    margin: 5px;
+    padding: 10px;
+}
+
+.btn-list{
+    border: none;
+}
+
+.btn{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.selesai{
+    background-color: green;
+}
+
+.hapus{
+    background-color: red;
+}
+
+.undo{
+    background-color: orange;
+}
